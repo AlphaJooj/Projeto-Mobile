@@ -19,7 +19,7 @@ export default class App extends React.Component {
 
     <View style={styles.general}>
     <Header />
-    <Text style={styles.hello}>Bem-vindo ao FG Reclama, aqui sua reclamação tem voz</Text>
+    <Text style={styles.hello}>Eae gay</Text>
     <Image
      style={{width: 100, height: 100, marginTop: 40, borderRadius: 100}}
      source={{uri: 'https://static01.nyt.com/images/2016/09/28/us/28xp-pepefrog/28xp-pepefrog-articleLarge.jpg? quality=75&auto=webp&disable=upscale'}} />
@@ -39,7 +39,7 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   general: {
    flex: 1,
-   backgroundColor: '#147ace',
+   backgroundColor: '#3b4f70',
    justifyContent: 'center',
    alignItems: 'center',
   },
