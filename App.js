@@ -45,6 +45,7 @@ const styles = StyleSheet.create({
 
   hello: {
    fontSize: 14,
+   marginTop: -100
   },
 
   email: {
@@ -57,7 +58,7 @@ const styles = StyleSheet.create({
    width: '90%',
    borderColor: 'black',
    borderWidth: 1,
-   borderRadius: 50,
+   borderRadius: 20,
    backgroundColor: '#ffffff'
   },
 
