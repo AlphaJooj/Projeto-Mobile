@@ -5,14 +5,14 @@ import {
   TouchableOpacity,
   Image,
   Text } from 'react-native';
+import Logo from '../components/Logo';
 
   export default class SelecionarReclamacao extends React.Component {
-
     render(){
       return(
         <View style={styles.container} >
-            <Image style={styles.logo} source={{uri: 'https://static01.nyt.com/images/2016/09/28/us/28xp-pepefrog/28xp-pepefrog-articleLarge.jpg? quality=75&auto=webp&disable=upscale' }} />
-            <Text style={styles.containerLine}> Selecione a opção Desejada: </Text>
+            <Logo label= "Selecione a opção Desejada:" />
+
             
             <View style={styles.containerButton}>
                 <TouchableOpacity style={styles.button}> 
@@ -36,25 +36,15 @@ import {
     flex: 1,
     backgroundColor: '#F5FCFF',
    },
-   containerLine:{
-    fontSize: 25,
-    alignSelf:'center'
   
-   },
-   logo:{
-    flex:1,
-    aspectRatio:1,
-    height:50,
-    borderRadius: 45,
-    marginTop: 15,
-    alignSelf:'center'
-   
-   },
    button:{
     backgroundColor: '#6D83F3'  ,
     borderBottomWidth:1,
     borderBottomColor: '#bbb',
-    margin:5
+    margin:15,
+    elevation: 1,
+    
+    
 
   },
   buttonText:{
@@ -66,9 +56,12 @@ import {
     
   },
   containerButton: {
-    flex:5,
-    justifyContent: 'center',
-    alignItems: 'center',
+    // flex:2,
+    // justifyContent: 'center',
+    // alignItems: 'center',
+    // borderWidth: 1,
+    // borderColor :'#bbb' , 
+   
   },
 
  });

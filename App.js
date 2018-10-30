@@ -4,9 +4,7 @@ import Main from './src/pages/Main';
 import SelecionarReclamacao from './src/pages/SelecionarReclamacao';
 
 export default createStackNavigator({
-    'Main' : {
-        screen: Main
-    },
+  
     'SegundaPagina' : {
         screen: SelecionarReclamacao,
             navigationOptions: {
@@ -18,7 +16,10 @@ export default createStackNavigator({
                         textAlign: 'center'
                 },
         }
-    }
+    },
+    'Main' : {
+        screen: Main
+    },
 },
  {
     navigationOptions: {
