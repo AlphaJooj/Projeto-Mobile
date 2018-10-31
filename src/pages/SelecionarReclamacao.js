@@ -15,8 +15,10 @@ import Logo from '../components/Logo';
 
             
             <View style={styles.containerButton}>
-                <TouchableOpacity style={styles.button}> 
-                  <Text style={styles.buttonText}> Postar Reclamação </Text>
+                <TouchableOpacity style={styles.button}  onPress={() => {
+                  this.props.navigation.navigate('SelecionarSetor')
+                }} > 
+                  <Text style={styles.buttonText}> Fazer Reclamação </Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity style={styles.button}> 

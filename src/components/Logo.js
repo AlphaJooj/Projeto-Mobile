@@ -28,7 +28,7 @@ const styles = StyleSheet.create ({
        
        },
     containerLine:{
-        fontSize: 25,
+        fontSize: 22,
         padding: 15,
         marginTop: 15,
         textAlign:'center',

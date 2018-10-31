@@ -2,9 +2,14 @@ import { createStackNavigator } from 'react-navigation';
 
 import Main from './src/pages/Main';
 import SelecionarReclamacao from './src/pages/SelecionarReclamacao';
+import SelecionarSetor from './src/pages/SelecionarSetor';
 
 export default createStackNavigator({
-  
+     
+   
+    'Main' : {
+        screen: Main
+    },
     'SegundaPagina' : {
         screen: SelecionarReclamacao,
             navigationOptions: {
@@ -17,9 +22,19 @@ export default createStackNavigator({
                 },
         }
     },
-    'Main' : {
-        screen: Main
+    'SelecionarSetor' : {
+        screen: SelecionarSetor,
+            navigationOptions: {
+                title: '@MUDAR ISSO ',
+                    headerTitleStyle:{
+                        color:'red',
+                        fontSize: 50,
+                        textAlign:'center'
+                    },
+            },
+
     },
+   
 },
  {
     navigationOptions: {
